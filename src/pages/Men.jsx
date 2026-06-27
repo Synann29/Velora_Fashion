@@ -163,8 +163,8 @@ export default function Men() {
         ) : slicedProducts.length > 0 ? (
           <>
             {/* Grid: 2 cols mobile → 3 cols tablet → 4 cols desktop */}
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, minmax(0, 1fr))' }}
-              className="sm:grid-cols-3 md:grid-cols-4 gap-x-3 sm:gap-x-5 md:gap-x-8 gap-y-8 sm:gap-y-10 md:gap-y-12"
+            <div
+              className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6 md:gap-8"
             >
               {slicedProducts.map((product) => (
                 <Link key={product.id} to={`/product/${product.id}`} className="group block">
