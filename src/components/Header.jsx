@@ -3,6 +3,7 @@ import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { AppContext } from '../context/AppContext';
 import { AuthContext } from '../context/AuthContext';
+import logo from '../assets/logo.png';
 
 export default function Header() {
   const location = useLocation();
@@ -126,7 +127,7 @@ export default function Header() {
           >
             <img
               src='../src/assets/logo.png'
-              alt="Velora Fashion Logo"
+              alt=""
               className="h-12 w-auto object-contain md:h-14"
             />
             Velora Fashion
