@@ -126,11 +126,11 @@ export default function Header() {
             className="flex items-center gap-2 font-serif font-bold text-lg md:text-xl text-fashion-brown"
           >
             <img
-              src='../src/assets/logo.png'
+              src={'../src/assets/logo.png'}
               alt=""
               className="h-12 w-auto object-contain md:h-14"
             />
-            Velora Fashion
+            Velora Fashiongi
             <span className="text-fashion-gold">.</span>
           </Link>
         </div>

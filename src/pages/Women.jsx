@@ -99,9 +99,8 @@ export default function Women() {
       </div>
 
       {/* ================= 🎡 STICKY CIRCULAR CATEGORIES BAR (FULL SHAPE) 🎡 ================= */}
-      <div className="sticky top-25 z-40 bg-white/95 backdrop-blur-md border-b border-neutral-100 shadow-xs transition-all duration-300">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 py-4 flex flex-col gap-5 lg:flex-row lg:items-center lg:justify-between">
-
+      <div className="sticky top-16 sm:top-20 md:top-[6.25rem] z-40 bg-white/95 backdrop-blur-md border-b border-neutral-100 shadow-xs transition-all duration-300">
+        <div className="max-w-7xl mx-auto px-3 sm:px-4 md:px-8 py-3 sm:py-4 md:py-6 flex flex-col gap-3 sm:gap-4 md:gap-0 md:flex-row md:items-center md:justify-between">
           {/* Left: Responsive Wrapped Circular Items */}
           <div className="flex items-center gap-3 sm:gap-4 md:gap-6 overflow-x-auto scrollbar-hide w-full md:w-auto pb-1 md:pb-0 snap-x snap-mandatory">
             {WOMEN_CATEGORIES.map((cat) => {
