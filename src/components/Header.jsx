@@ -122,17 +122,17 @@ export default function Header() {
 
           {/* Logo */}
           <Link
-            to="/"
-            className="flex items-center gap-2 font-serif font-bold text-lg md:text-xl text-fashion-brown"
-          >
-            <img
-              src={'../src/assets/logo.png'}
-              alt=""
-              className="h-12 w-auto object-contain md:h-14"
-            />
-            Velora Fashiongi
-            <span className="text-fashion-gold">.</span>
-          </Link>
+  to="/"
+  className="flex items-center gap-2 font-serif font-bold text-lg md:text-xl text-fashion-brown"
+>
+  <img
+    src={logo}
+    alt="Velora Fashion Logo"
+    className="h-12 w-auto object-contain md:h-14"
+  />
+  Velora Fashion
+  <span className="text-fashion-gold">.</span>
+</Link>
         </div>
 
         {/* Desktop Navigation */}
